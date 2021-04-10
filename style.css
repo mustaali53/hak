@@ -1,0 +1,711 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+.navbar{
+    background-color: rgb(166, 168, 170) !important;
+}
+
+
+
+.logo{
+    width: 180px !important;
+    margin-left: 10px;
+}
+
+.nav-link{
+    color: rgb(29, 53, 95) !important;
+    font-weight: bold;
+}
+
+.d-block{
+    width: 60% !important;
+    height: 60% !important;
+    margin-left: 20%;
+}
+
+.carousel-item{
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.navbar-text{
+    margin-right: 40px;
+}
+
+@media only screen and (max-width: 900px) {
+    .d-block{
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+  }
+
+  .fa-truck, .fa-thumbs-up, .fa-phone{
+      font-size: 50px !important;
+      margin-right: 30px;
+      color: rgb(225, 90, 0);
+  }
+
+    h3{
+        color: rgb(225, 90, 0);
+    }
+
+  .card1, .card2, .card3 {
+      display: flex;
+      width: 300px;
+      height: 100px;
+    box-shadow: 2px 4px 5px grey;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .mainCard{
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+  }
+
+  @media only screen and (max-width: 616px) {
+    .card1, .card2, .card3{
+        width: 100% !important;
+    }
+  }
+
+  .container{
+      display: flex;
+      margin-top: 50px;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }
+
+  .card{
+    box-shadow: 2px 4px 5px grey;
+    margin-bottom: 20px;
+  }
+
+.card :hover{
+    background-color: rgb(166, 168, 170);
+}
+
+.card-img-top:hover{
+    transform: scale(1.25,1.25) !important;
+    transition: 1s;
+    border: 2px solid rgb(166, 168, 170) ;
+    border-radius: 5%;
+}
+
+  @media only screen and (max-width: 767px) {
+    .container{
+       justify-content: center !important;
+    }
+  }
+
+  .heading{
+      color: rgb(29, 53, 95);
+      margin-top: 40px;
+      text-align: center; 
+     width: 30%;
+     height: 100px;
+     background-color: rgb(166, 168, 170);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     box-shadow: 2px 4px 5px rgb(225, 90, 0);
+  }
+
+  @media only screen and (max-width: 991px) {
+    .heading {
+        width: 50%;
+    }
+  }
+    @media only screen and (max-width: 767px) {
+        .heading {
+            width: 60%;
+        }
+    }
+
+
+  .heading h2{
+      text-shadow: 2px 4px 5px rgb(255, 255, 255);
+  }
+
+  .copy{
+      height: 60px;
+      font-size: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: grey;
+      color: rgb(29, 53, 95);
+      font-weight: bolder;
+  }
+
+  @media only screen and (max-width: 375px) {
+    .copy {
+        font-size: 96%;
+    }
+}
+
+@media only screen and (max-width: 367px) {
+    .copy {
+        font-size: 90%;
+    }
+}
+@media only screen and (max-width: 335px) {
+    .copy {
+        font-size: 85%;
+    }
+}
+
+  .active{
+      color: rgb(225, 90, 0) !important;
+  }
+
+
+.btn{
+    background-color: rgb(29, 53, 95);
+}
+
+  .btn:hover{
+      background-color: rgb(13, 110, 253) !important;
+  }
+
+  .fa-shopping-cart{
+      transform: scale(2,2);
+      margin-left: 50px;
+  }
+
+  @media only screen and (max-width: 991px) {
+    .fa-shopping-cart {
+        margin-left: 7px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .nav-link {
+        margin-left: 20px;
+    }
+}
+
+.contact{
+    color: rgb(29, 53, 95);
+    margin-top: 40px;
+    text-align: center; 
+   width: 30%;
+   height: 100px;
+   background-color: rgb(166, 168, 170);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   box-shadow: 2px 4px 5px rgb(225, 90, 0);
+    
+}
+
+/* .contact h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} */
+
+.modal-body{
+    display: block; 
+    justify-content: center;
+    align-items: center; 
+}
+
+
+
+.main_div{
+     border-right: 2px solid rgb(8, 20, 41);
+     border-top: 2px solid rgb(8, 20, 41);
+    display: flex;
+    width: 100%;
+    margin-bottom: 25px;
+
+}
+
+/* @media only screen and (max-width: 425px) {
+    .main_div {
+        width: 100%;
+    }
+} */
+
+
+
+
+.cart-image{
+    /* border: 2px solid black; */
+    display: flex;
+    float: left;
+    width: 160px;
+    height: 120px;
+    margin: 3px;
+    margin-top: 10px;
+    box-shadow: 4px 5px 4px grey;
+    border-radius: 5px;
+}
+
+.cart-text{
+    /* border: 2px solid black; */
+    display: grid;
+    float: left;
+    width: 90%;
+    height: 130px;
+    margin-left: 30px;
+    margin: 3px;
+}
+
+.cart-div1{
+   /* border: 2px solid black; */
+   display: flex;
+   float: left;
+   margin-left: 15px;
+   margin-top: 15px;
+   width: 90%;
+   height: 30px;
+   justify-content:left;
+   align-items: center;
+   color: rgb(8, 20, 41);
+   box-shadow: 4px 4px 3px grey;
+}
+
+.cart-div2{
+    /* border: 2px solid black; */
+    display: flex;
+    float: left; 
+     margin-left: 15px;
+    margin-top: 3px;
+    width: 100px;
+    height: 30px;
+    font-weight: bolder;
+    color: rgb(8, 20, 41);
+    box-shadow: 4px 4px 3px grey;
+    /* position: absolute;
+    top: 100px;
+    left: 210px; */
+}
+
+.btn-primary{
+    background-color: rgb(29, 53, 95) !important;
+}
+
+ .del-btn{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    left: 94%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3%;
+    
+} 
+
+@media only screen and (max-width: 575px) {
+    .del-btn {
+        left: 94%;
+    }
+} 
+
+@media only screen and (max-width: 495px) {
+    .del-btn {
+        left: 93.5%;
+    }
+} 
+
+@media only screen and (max-width: 445px) {
+    .del-btn {
+        left: 93%;
+    }
+} 
+@media only screen and (max-width: 395px) {
+    .del-btn {
+        left: 92%;
+    }
+} 
+
+
+ .field{
+    width: 90%;
+    display: flex;
+    margin-left: 35px;
+    padding-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    border-left: 8px solid rgb(225, 90, 0);
+    
+ }
+
+ @media only screen and (max-width: 425px) {
+    .field {
+        margin-left: 20px;
+        padding-left: 25px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .field {
+        margin-left: 15px;
+        padding-left: 20px;
+    }
+}
+
+.form-label, .form-check-label{
+    color: rgb(29, 53, 95);
+    font-weight: 500;
+}
+
+.form-control, .form-select{
+    box-shadow: 2px 1px 5px grey;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    width: 150px;
+    margin-left: 70%;
+    box-shadow: 2px 2px 5px grey;
+}
+
+
+@media only screen and (max-width: 1302px) {
+    .price {
+        margin-left: 65%;
+    }
+}
+
+@media only screen and (max-width: 961px) {
+    .price {
+        margin-left: 55%;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .price {
+        margin-left: 45%;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .price {
+        margin-left: 40%;
+    }
+}
+
+@media only screen and (max-width: 341px) {
+    .price {
+        margin-left: 35%;
+    }
+}
+
+.total{
+    margin-right: 10px;
+    color: rgb(29, 53, 95);
+    font-weight: 700;
+}
+
+.foot{
+    background-color: rgb(29, 53, 95);
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.foot-text{
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+
+.cardPrice{
+    margin-top: 2px;
+    margin-bottom: 3px;
+    font-weight: 700;
+}
+
+
+.text-1{
+    font-weight: 500;
+}
+
+.quantity{
+    margin-left: 15px;
+    margin-top: -5px;
+    box-shadow: 1px 4px 3px grey;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media only screen and (max-width: 475px) {
+    .quantity {
+        width: 28%;
+    }
+}
+
+@media only screen and (max-width: 445px) {
+    .quantity {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    .quantity {
+        width: 32%;
+    }
+}
+@media only screen and (max-width: 395px) {
+    .quantity {
+        width: 36%;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 365px) {
+    .quantity {
+        width: 40%;
+        font-size: 15px;
+    }
+}
+
+.quantity-text{
+    margin-left: 5px;
+}
+
+#time{
+    color: rgb(29, 53, 95);
+    font-weight: 700;
+}
+
+.span-text{
+    margin-right: 10px;
+}
+
+#smallDiv{
+    background-color: red;
+    width: 7px;
+    height: 7px;
+    float: right;
+    color: white;
+    font-size: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -3px;
+    font-weight: 500;
+    box-shadow: 1px 1px 2px rgb(225, 90, 0);
+    /* margin-right: 20px; */
+    /* border-radius: 5px; */
+}
+
+#first{
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.laptop{
+    width: 60%;
+    margin-top: -28.5%;
+}
+
+.video{
+    margin-left: 26.05%;
+    width: 47.75%;
+    position: relative;
+    margin-top: 30px;
+   
+}
+
+/* .img{
+    background-color: rgb(255, 234, 148);
+    width: 200%;
+    /* z-index: 1; */
+/* } * */
+
+.body{
+    position: absolute;
+    top: 0;
+    /* background-color: rgb(223, 94, 73); */
+    width: 100%;
+    height: 70%;
+    z-index: -2;
+    
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    /* background-color: rgb(223, 94, 73); */
+    width: 100%;
+    height: 70%;
+    z-index: -1;
+    background-color: grey;
+    opacity: 20%;
+    
+   
+}
+
+@media only screen and (max-width: 1199px) {
+    .body {
+        height: 63%;
+    }
+    .overlay{
+        height: 63%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .body {
+        height: 53%;
+    }
+    .overlay{
+        height: 53%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .body {
+        height: 46%;
+    }
+    .overlay{
+        height: 46%;
+    }
+}
+@media only screen and (max-width: 520px) {
+    .body {
+        height: 44%;
+    }
+    .overlay{
+        height: 44%;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .body {
+        height: 42%;
+    }
+    .overlay{
+        height: 42%;
+    }
+}
+
+.right-logo{
+
+            z-index: 2;
+            margin-left: -50%;
+            width: 20%;
+            position: absolute;
+            margin-top: 30px;
+           
+}
+
+.left-logo{
+
+        z-index: 2;
+        margin-left: 30%;
+        width: 20%;
+        position: absolute;
+        margin-top: 30px;
+       
+}
+
+
+.about-image{
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px rgb(225, 90, 0);
+} 
+
+.about-para{
+         color: rgb(29, 53, 95);
+         font-family: sans-serif;
+}
+
+
+#about-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-div{
+      margin-top: -25px;
+      color: rgb(29, 53, 95);
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+
+.headDiv-span{
+    color: rgb(225, 90, 0);
+    font-weight: bolder;
+}
+
+.img-div{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -8%;
+    margin-right: 8%;
+}
+
+
+.font{
+    font-size: 2em;
+}
+
+@media only screen and (max-width: 992px) {
+   .img-div{
+       margin-left: 10%;
+   }
+   .about-image{
+       width: 80%;
+       margin-left: 10%;
+   }
+}
+
+@media only screen and (max-width: 1280px) {
+    .img-div{
+        margin-left: -6%;
+        margin-right: 4%;
+    }
+ }
+
+ @media only screen and (max-width: 1280px) {
+    .img-div{
+        margin-left: -4%;
+        margin-right: 4%;
+    }
+ }
+
+.spa{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: rgb(225, 90, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.para-div{
+    margin-bottom: 15px;
+}
+
+
+
