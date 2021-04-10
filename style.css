@@ -707,5 +707,12 @@
     margin-bottom: 15px;
 }
 
+.fit{
+    margin-top: 0;
+}
 
-
+@media only screen and (max-width: 992px) {
+    .fit{
+        margin-top: 10px;
+    }
+ }
