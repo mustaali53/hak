@@ -16,7 +16,7 @@ var cartNum;
 var cartNumPlus = 0;
 var cartNumMinus;
 
-
+// let get_data = () => {
 firebase.database().ref('total').on('child_added', function(data){
     
     selectSpan.innerHTML = ""
@@ -26,13 +26,14 @@ firebase.database().ref('total').on('child_added', function(data){
      selectSpan.appendChild(selectSpanText)
      submitTotal = document.getElementById("time") 
      submitTotal.innerHTML = data.val().pri + "/-"
+    
      
 })
-
+// }
 
 firebase.database().ref('cart').on('child_added', function(data){
     console.log(data.val())
-
+    // get_data()
     var cart = document.getElementById("main-div")
     var maindiv = document.createElement("div")
     maindiv.className += " main_div"
@@ -122,7 +123,8 @@ function changeColor(id) {
      span1 = cards.childNodes[3].childNodes[3].childNodes[0].innerHTML
      span2 = cards.childNodes[3].childNodes[3].childNodes[2].innerHTML
      
-     sum()
+    
+     sum() 
     
     
    
@@ -141,6 +143,7 @@ function changeColor(id) {
 
     firebase.database().ref('cart').child(key).set(obj) 
     firebase.database().ref('total').child(key).set(total)  
+    
 } 
 
 
@@ -165,6 +168,7 @@ function sum(){
     // check.push(Number(span_2.innerHTML))
     pri += Number(span2)
     // console.log(span2)
+    // pri += data.val().pri + span2
         
 }
 
@@ -217,7 +221,8 @@ function delAll() {
     firebase.database().ref('cart').remove()
     firebase.database().ref('total').remove()
     selectSpan.innerHTML = ""
-    submitTotal.innerHTML = ""
+    console.log(submitTotal)
+    // submitTotal.innerHTML = ""
     cartNum.innerHTML = 0
 
 }
